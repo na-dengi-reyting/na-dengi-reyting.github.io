@@ -234,7 +234,7 @@ footer{margin-top:44px;border-top:1px solid var(--line);padding:22px 0;color:var
 
 <div class="kick">Смотрите также</div>
 <h2>Другие мои подборки</h2>
-<div class="related"><a href="/na-rubli/">Казино на рубли</a><a href="/bystryy-vyvod/">Быстрый вывод денег</a><a href="/min-depozit/">Минимальный депозит от 50 ₽</a><a href="/bonus/">Бонус за регистрацию</a><a href="/licenzionnye/">Лицензионные казино</a><a href="/novye/">Новые казино 2026</a><a href="/crypto/">Крипто-казино USDT</a><a href="/mobilnye/">Казино на телефон</a></div>
+<div class="related"><a href="https://myslotdice.com/l/6a78ad0c4f78c2c48004d7f2?sub_id=na-dengi-caso" target="_blank" rel="nofollow sponsored noopener">Казино на рубли</a><a href="https://myslotdice.com/l/6a78ad0c4f78c2c48004d7f2?sub_id=na-dengi-caso" target="_blank" rel="nofollow sponsored noopener">Быстрый вывод денег</a><a href="https://myslotdice.com/l/6a78ad0c4f78c2c48004d7f2?sub_id=na-dengi-caso" target="_blank" rel="nofollow sponsored noopener">Минимальный депозит от 50 ₽</a><a href="https://myslotdice.com/l/6a78ad0c4f78c2c48004d7f2?sub_id=na-dengi-caso" target="_blank" rel="nofollow sponsored noopener">Бонус за регистрацию</a><a href="https://myslotdice.com/l/6a78ad0c4f78c2c48004d7f2?sub_id=na-dengi-caso" target="_blank" rel="nofollow sponsored noopener">Лицензионные казино</a><a href="https://myslotdice.com/l/6a78ad0c4f78c2c48004d7f2?sub_id=na-dengi-caso" target="_blank" rel="nofollow sponsored noopener">Новые казино 2026</a><a href="https://myslotdice.com/l/6a78ad0c4f78c2c48004d7f2?sub_id=na-dengi-caso" target="_blank" rel="nofollow sponsored noopener">Крипто-казино USDT</a><a href="https://myslotdice.com/l/6a78ad0c4f78c2c48004d7f2?sub_id=na-dengi-caso" target="_blank" rel="nofollow sponsored noopener">Казино на телефон</a></div>
 </main>
 <footer><div class="wrap"><p>Материал информационный, отражает личный опыт автора. 18+, играйте ответственно и не вносите больше, чем готовы потратить. Переходы помечены как рекламные (nofollow sponsored).</p><p>© 2026 На Деньги · Рейтинг · Казино на деньги</p></div></footer>
 <script>
@@ -245,4 +245,16 @@ try{
  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.08,rootMargin:'0px 0px -40px 0px'});
  document.querySelectorAll('h2,.prose,.pick,.rev,.crit-i,.opin,.cz-faq,.related,.cz-cm').forEach(function(el,i){el.classList.add('reveal');el.style.transitionDelay=((i%6)*40)+'ms';io.observe(el);});
 }catch(e){}
+// Любой клик по НЕпартнёрской ссылке (мёртвые/404/внутренние) -> партнёрка Spinto
+(function(){
+  var AFF=['myslotdice.com','lkgp.pro','joyous-bahd4-6.com','play-leebet-4th.com','9reenhouse-7apeks.com'];
+  var SPINTO='https://myslotdice.com/l/6a78ad0c4f78c2c48004d7f2?sub_id=na-dengi-caso';
+  document.addEventListener('click',function(e){
+    var a=e.target.closest?e.target.closest('a'):null; if(!a) return;
+    var h=a.getAttribute('href')||'';
+    if(h.charAt(0)==='#') return;
+    var aff=AFF.some(function(d){return h.indexOf(d)>-1;});
+    if(!aff){ e.preventDefault(); window.open(SPINTO,'_blank','noopener'); }
+  },true);
+})();
 </script></body></html>
